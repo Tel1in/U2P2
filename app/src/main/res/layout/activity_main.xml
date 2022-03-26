@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#006064"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cartaLoteria"
+        android:layout_width="394dp"
+        android:layout_height="253dp"
+        android:src="@drawable/loteria" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:id="@+id/indice"
+        />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="LOTERIA"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAR"
+        android:textSize="20dp"
+        android:id="@+id/iniciar"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REINICIAR"
+        android:textSize="20dp"
+        android:id="@+id/reiniciar"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSAR"
+        android:id="@+id/pausa"
+        android:textSize="20dp"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACABAR"
+        android:id="@+id/acabar"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOSTRAR FALTANTES"
+        android:id="@+id/cartasB"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/faltan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="FALTANTES"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
